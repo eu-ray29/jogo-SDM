@@ -27,7 +27,6 @@ let selectedAnswer = null;
 
 const questionEl = document.getElementById("question");
 const answersEl = document.getElementById("answers");
-const nextButton = document.getElementById("nextButton");
 const statusEl = document.getElementById("status");
 
 function loadQuestion() {
@@ -35,7 +34,7 @@ function loadQuestion() {
   questionEl.textContent = q.question;
   answersEl.innerHTML = "";
   selectedAnswer = null;
-  nextButton.disabled = true;
+
 
   q.answers.forEach((answer, index) => {
     const btn = document.createElement("button");
@@ -77,7 +76,7 @@ function endGame() {
   nextButton.style.display = "none";
 }
 
-nextButton.addEventListener("click", checkAnswer);
+answersEl.addEventListener("click", checkAnswer);
 
 // Iniciar o jogo
 loadQuestion();
