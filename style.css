@@ -47,7 +47,7 @@ body {
   font-size: 1.7rem;
   font-weight: 900;
   margin-bottom: 20px;
-  padding: 2rem 0rem;
+  padding: 2rem 1rem;
   background: #9e1208;
   background: linear-gradient(22deg, rgba(158, 18, 8, 1) 4%, rgba(179, 23, 5, 1) 66%, rgba(150, 14, 5, 1) 74%, rgba(173, 34, 12, 1) 88%, rgba(145, 10, 0, 1) 100%);
   border-radius: 5px;
@@ -113,7 +113,7 @@ body {
   display: block;
   margin: 10px;
   margin-left: 10px;
-  padding: 1rem 0;
+  padding: 1rem;
   background: #9e1208;
   background: linear-gradient(29deg, rgba(158, 18, 8, 1) 0%, rgba(179, 23, 5, 1) 2%, rgba(150, 14, 5, 1) 11%, rgba(173, 34, 12, 1) 27%, rgba(145, 10, 0, 1) 100%);
   border: 2px solid white;
@@ -121,8 +121,7 @@ body {
   cursor: pointer;
   width: 80%;
   color: white;
-  text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.5rem;
   text-shadow: #000 2px 2px 3px;
   font-style: italic;
