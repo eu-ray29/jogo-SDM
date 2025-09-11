@@ -87,7 +87,7 @@ const questions = [
       "Ignorando os sinais de estresse e focando apenas nos resultados financeiros.",
       "Reforçando a competitividade entre os colaboradores para melhorar o desempenho."
     ],
-    correct: 1
+    correct: 2
   }
 ];
 
