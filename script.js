@@ -130,7 +130,7 @@ function checkAnswer() {
   }
 
   currentQuestion++;
-  if (currentQuestion < questions.length) {
+  if (currentQuestion <= questions.length) {
     loadQuestion();
   } else {
     endGame();
