@@ -126,7 +126,7 @@ function selectAnswer(button, index) {
 function checkAnswer() {
   const correct = questions[currentQuestion].correct;
   if (selectedAnswer === correct) {
-    score += 11;
+    score += 10;
   }
 
   currentQuestion++;
