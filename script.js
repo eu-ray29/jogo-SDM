@@ -133,6 +133,7 @@ function checkAnswer() {
   if (currentQuestion < questions.length) {
     loadQuestion();
   } else {
+    statusEl.textContent = ` ${score}`;
     endGame();
   }
 
